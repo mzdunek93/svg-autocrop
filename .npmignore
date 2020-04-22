@@ -1,0 +1,14 @@
+yarn-error.log*
+
+coverage
+.nyc_output
+
+api/
+config/
+src/
+test/
+tmp/
+.eslint*
+.prettier*
+ava.config.js
+tsconfig.json

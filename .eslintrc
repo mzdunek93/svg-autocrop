@@ -1,0 +1,19 @@
+{
+  "ignorePatterns": ["node_modules/", "*.js"],
+  "plugins": ["@typescript-eslint", "prettier", "tsdoc"],
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "prettier/@typescript-eslint"
+  ],
+  "rules": {
+    "no-console": ["warn", { "allow": ["error"] }],
+    "object-shorthand": ["error", "always"],
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    "eol-last": ["error", "always"],
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "prettier/prettier": ["error"],
+    "tsdoc/syntax": "warn"
+  }
+}
